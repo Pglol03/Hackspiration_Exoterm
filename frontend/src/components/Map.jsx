@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet } from "react-helmet"
 function iframe() {
     return {
         __html: '<iframe src="./Heatmap.html" width="540" height="450"></iframe>'

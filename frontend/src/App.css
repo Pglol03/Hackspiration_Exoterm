@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  flex-shrink: 0;
+  bottom: 0%;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+}
