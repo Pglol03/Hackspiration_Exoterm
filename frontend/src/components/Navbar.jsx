@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <h1 className="navbar-logo">
-        React <i className="fab fa-react"></i>
+        Inter-Map <i className="fab fa-react"></i>
       </h1>
       <div className="menu-icon" onClick={handleClick}>
         <i className={active ? "fas fa-times" : "fas fa-bars"}></i>
@@ -29,7 +29,7 @@ const Navbar = () => {
           );
         })}
       </ul>
-      <Button>SIGN UP</Button>
+      <Button>Home</Button>
     </nav>
   );
 };

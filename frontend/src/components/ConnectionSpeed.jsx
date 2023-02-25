@@ -8,7 +8,7 @@ function ConnectionSpeed() {
   );
   return (
     <div>
-      <h2 className="mb-3">React Find Internet Speed Example</h2>
+      <h2 className="mb-3">Internet Speed</h2>
       <ReactInternetSpeedMeter
         txtSubHeading="Internet connection is slow"
         outputType="" // "alert"/"modal"/"empty"
